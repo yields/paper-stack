@@ -9,6 +9,10 @@
 
     $ component install yields/paper-stack
 
+## demo
+
+![paper-stack](http://i.cloudup.com/h5PYZl0HXC.png)
+
 ## License
 
   MIT
