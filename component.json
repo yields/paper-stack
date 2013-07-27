@@ -1,0 +1,9 @@
+{
+  "name": "paper-stack",
+  "repo": "yields/paper-stack",
+  "description": "paper effect.",
+  "version": "0.0.1",
+  "keywords": ["paper", "stack", "css"],
+  "styles": ["paper-stack.css"],
+  "license": "MIT"
+}

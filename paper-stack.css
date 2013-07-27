@@ -1,0 +1,34 @@
+
+.paper-stack {
+  position: relative;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.paper-stack:before,
+.paper-stack:after {
+  -webkit-box-shadow: 1px 1px 2px #ddd;
+  box-shadow: 1px 1px 2px #ddd;
+  border: 1px solid rgba(0, 0, 0, .1);
+  background: inherit;
+  position: absolute;
+  content: '\0';
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.paper-stack:before {
+  -webkit-transform: rotate(1deg);
+  transform: rotate(1deg);
+  z-index: -1;
+  top: -1px;
+}
+
+.paper-stack:after {
+  -webkit-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+  z-index: -2;
+  left: -1px;
+}
